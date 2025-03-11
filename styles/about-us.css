@@ -44,6 +44,9 @@ header{
     width: 100%;
     padding: 10px;
   }
+  .about-info-1 p{
+    width: 100%;
+  }
 }
 @media (min-width: 1000px) {
   .about-section-pg2{
