@@ -34,7 +34,7 @@ header{
   color: rgb(73, 71, 71);
 }
 .about-info-1 h3{
-  font-family: tahoma;
+  font-family: tahoma, Times New Roman;
   color: rgb(5, 3, 114);
   text-decoration: underline;
 }
@@ -42,6 +42,7 @@ header{
   .about-info-1{
     flex-direction: column;
     width: 100%;
+    padding: 10px;
   }
 }
 @media (min-width: 1000px) {
