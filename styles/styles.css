@@ -543,6 +543,11 @@ footer{
   width: 100%;
 }
 .footer-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
   width:100%;
   padding: 30px;
 }
