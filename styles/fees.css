@@ -1,0 +1,42 @@
+.table-container{
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  padding: 15px;
+  margin: 20px;
+  justify-content: space-between;
+}
+.table-container h2{
+  text-decoration: dotted;
+}
+.fees-heading{
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  background: rgb(117, 5, 5);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: rgb(218, 204, 204);
+}
+.table-container table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-container table th, td{
+  border: 1px solid rgb(165, 163, 163);
+  padding: 10px;
+  text-align: center;
+}
+th{
+  background: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+}
+td{
+  color: rgb(37, 36, 36);
+}
+@media(max-width: 768px) {
+  .table-container{
+    flex-direction: column;
+  }
+}

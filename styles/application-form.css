@@ -1,0 +1,149 @@
+.apply-container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 18px;
+  padding-right: 18px;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 35px;
+  background: rgb(246, 246, 248);
+  border-radius: 18px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+.o-level h4{
+  color: white;
+}
+.o-level{
+  display: flex;
+  flex-direction: column;
+  background: rgb(87, 1, 30);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+.o-level label{
+  color: rgb(185, 185, 185);
+}
+.o-level input{
+  background: rgb(226, 223, 223);
+}
+.o-level select{
+  background: rgb(226, 223, 223);
+}
+.a-level{
+  display: flex;
+  flex-direction: column;
+  background: rgb(211, 211, 211);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+  margin: 10px;
+}
+.a-level input{
+  background: rgb(250, 245, 245);
+  border-radius: 5px;
+}
+.a-level select{
+  background: rgb(250, 245, 245);
+  border-radius: 5px;
+}
+.name-gender-date{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.points{
+  padding-left: 20px;
+}
+.gender{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
+}
+.gender-head{
+  display: block;
+}
+.date{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name-gender-date input{
+  border-style: none;
+  border: 1px solid rgb(223, 218, 218);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-family: tahoma;
+  border-radius: 3px;
+}
+
+.apply-container input{
+  padding: 8px;
+  border-style: none;
+  border: 1px solid rgb(223, 218, 218);
+  border-radius: 2px;
+}
+.apply-container select{
+  padding: 8px;
+  border-style: none;
+  border: 1px solid rgb(223, 218, 218);
+  font-size: 15px;
+  font-family: tahoma;
+  margin: 1px;
+  border-radius: 2px;
+}
+.apply-container select:active{
+  border: 1px solid gray;
+}
+button{
+  display: flex;
+  border: none;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+  background: rgb(141, 54, 54);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.apply-container a{
+  display: inline-block;
+  text-decoration: none;
+}
+@media(min-width: 1000px) {
+  .apply-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media(max-width: 768px) {
+  .name-gender-date{
+    flex-direction: column;
+     text-align: left;
+  }
+  .date{
+    text-align: left;
+  }
+  .gender-select{
+    display: flex;
+    flex-direction: row;
+  }
+  .gender-heading{
+    text-align: center;
+    color: rgb(41, 39, 39);
+  }
+  .name-gender-date input{
+    width: 100%;
+  }
+  .name-gender-date label{
+    text-align: center;
+  }
+}

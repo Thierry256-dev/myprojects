@@ -1,0 +1,42 @@
+.giants{
+ display: flex;
+ flex-direction: column;
+}
+.body-giants{
+  background: linear-gradient(to bottom, rgb(121, 1, 1),rgb(4, 4, 153));
+}
+.uce-giants{
+ column-count: 2;
+ gap: 10px;
+ grid-auto-flow: dense;
+ padding: 15px;
+}
+.uace-giants{
+  column-count: 2;
+  gap: 10px;
+  grid-auto-flow: dense;
+  padding: 15px;
+}
+.uce-giants img{
+  width: 100%;
+  box-shadow: 5px 5px 15px rgba(0,0,0.2);
+}
+.uace-giants img{
+  width: 100%;
+  box-shadow: 5px 5px 15px rgba(0,0,0.2);
+}
+.academic-text{
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: lato,sans-serif;
+  color:white;
+}
+@media(max-width: 768px) {
+  .uce-giants{
+   column-count: 1;
+  }
+  .uace-giants{
+    column-count: 1;
+  }
+}
