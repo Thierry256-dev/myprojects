@@ -23,6 +23,7 @@ header{
   background-size: cover;
   background-position:center;
   background-repeat:no-repeat;
+  font-family: Tahoma, lato;
   width: 100%;
   min-height: 300px;
   margin-bottom: 10px;
@@ -42,6 +43,7 @@ header{
 @media(max-width:768px) {
   header{
     min-height: 200px;
+    font-family: times new Roman, Lato;
   }
 }
 .badge {
