@@ -180,11 +180,13 @@ nav ul a:hover {
   .header-middle h1{
     font-size: 45px;
     margin-top: 4px;
+    font-family: times New Roman, Lato;
   }
   .header-middle p{
     font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: times New Roman, Lato;
   }
 }
 .hr-1{
@@ -195,7 +197,7 @@ nav ul a:hover {
 }
 .welcome-text{
   text-align: center;
-  font-family: tahoma;
+  font-family: tahoma, Lato;
 }
 .site-name{
   font-family: tahoma;
