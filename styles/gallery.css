@@ -4,7 +4,6 @@
 .gallery-section{
   column-count: 3;
   gap: 10px;
-  grid-auto-flow: dense;
   padding: 15px;
 }
 .gallery-section img{
